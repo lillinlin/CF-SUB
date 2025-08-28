@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
+let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
 
 export default {
@@ -827,3 +827,4 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
